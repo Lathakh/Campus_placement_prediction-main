@@ -74,4 +74,4 @@ predict_pipeline = PredictPipeline()
 predicted_value= predict_pipeline.predict(input_df)
 
 st.subheader('Prediction')
-st.write('will be Placed' if predicted_value == "1" else 'Not placed')
+st.write('will be Placed' if predicted_value == 1 else 'Not placed')
